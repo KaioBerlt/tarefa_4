@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*{
+    font-family: 'Merriweather' , Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    min-height: 100vh;
+
+}
+
+:root{
+    --background-clean: purple;
+    --cor-site: red;
+}
+
+/* estilização header*/
+
+
+
+
+.cabecalho{
+    display: flex;
+    width: 100%;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(89,5,80,1) 45%, rgba(0,0,0,1) 94%, rgba(255,0,0,1) 99%);
+    
+
+}
+
+.menu{
+    display: flex;
+    
+}
+
+.menu .ul-menu{
+    display: flex;
+    align-items: center;
+    color:rgb(233, 6, 6);
+    
+    
+}
+
+.ul-menu li{
+    list-style: none;
+    display: flex;
+    padding: 5rem;
+    
+}
+
+ul li span{
+    color:deeppink;
+}
+
+
+
+.bi bi-house-heart-fill{
+    font-size: 30px;
+    
+}
+
+
+
+/*Body*/
+
+section#mensagem-inicial{
+    
+background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(89,5,80,1) 45%, rgba(0,0,0,1) 100%, rgba(255,0,0,1) 100%);
+    padding: 5rem;
+}
+
+#nome-empresa{
+    font-family: 'Dancing Script';
+    font-size: 7rem;
+    margin-left: 13rem;
+    justify-content: flex-start;
+    text-shadow: white 5px 5px 5px;
+
+}
+
+#mensagem{
+    text-shadow: white 2px 2px 2px;
+
+}
+
+.quantidadeFinal{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+
+}
+
+#prod-final{
+    justify-content: center;
+    text-align: center;
+}
+
+.excluir-cart{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.cupom{
+    text-align: center;
+}
+
+.pagamento{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.inicio-cart{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+}
+
+
+.bi-trash3-fill{
+    color:rgb(233, 6, 6);
+}
+
+.bi-cart-x-fill{
+    color:rgb(233, 6, 6);
+}
+
+.bi-search-heart{
+    color:rgb(233, 6, 6);
+    justify-content: space-between;
+    font-size: 1.25rem;
+    
+    
+    
+}
+
+#btncad{
+    margin-top: 1rem;
+}
+
+#mapa{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    max-width: 100%;
+    border: black 3px solid;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 23rem;
+    margin-right: 23rem;   
+}
+
+.pesquisa{
+    display: flex;
+    font-size: small;
+    
+}
+ #cep{
+    display: flex;
+    
+ }
+
+
+.linkscep{
+    display: flex;
+    margin-top: 1rem;
+    
+}
+
+/*input*/
+
+#input{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    padding-left: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+   
+    
+}
+
+.bi-search-heart-fill{
+    color:rgb(233, 6, 6);
+    padding-left: 2rem;
+    
+
+}
+
+/*cadastro*/
+
+
+.sign{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+    
+}
+
+.login{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.card-teste{
+    display: flex;
+    position:relative;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 50%;
+    background-color: deeppink;
+    border: black 3px solid;
+    border-radius: 2rem;
+    z-index: 999;
+
+}
+
+.card-cupom{
+    display: flex;
+    position:relative;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+    width: 50%;
+    background-color: deeppink;
+    border: black 3px solid;
+    border-radius: 2rem;
+    z-index: 999;
+
+}
+
+
+
+
+
+/*img*/
+
+img{
+    display: flex;
+    max-width: 15%;
+    margin: auto;
+    justify-content: center;
+    border: 5px solid black;
+    
+}
+
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(89,5,80,1) 45%, rgba(0,0,0,1) 94%, rgba(255,0,0,1) 99%);
+    justify-content: space-around;
+
+}
+
+.footer-card{
+    display:flex;
+    list-style: none;
+ 
+    
+
+}
+
+.footer-item {
+    align-items:center;
+    padding: 5rem;
+    
+}
+
+.bi-instagram{
+    color:rgb(233, 6, 6);
+    font-size: 1.5rem;
+}
+.bi-facebook{
+    color:rgb(233, 6, 6);
+    font-size: 1.5rem;
+}
+.bi-whatsapp{
+    color:rgb(233, 6, 6);
+    font-size: 1.5rem;
+}
+
+
+/*Vale-presentes*/
+
+.bi-chevron-double-left{
+    color:rgb(233, 6, 6);
+
+}
+
+.bi-arrow-through-heart-fill{
+    color:rgb(53, 2, 26);
+
+
+}
+
+i.red{
+     color:rgb(233, 6, 6);
+}
+
+.bi-cart-dash-fill{
+    color:rgb(233, 6, 6);
+    font-size: 1.5rem;
+}
+
+
+.bi-cart-plus-fill{
+    color:rgb(233, 6, 6);
+    font-size: 1.5rem;
+}
+
+.bi-cart-check-fill{
+    color:rgb(233, 6, 6);
+    font-size: 1.5rem;
+    
+}
+
+
+.atalho-compra{
+    display: flex;
+    justify-content:space-between;
+    margin: 3rem;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.quantidade{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.preco{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 2rem;
+    border: 2px solid black;
+}
+
+.check{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.cadastro{
+    margin-left: 30rem;
+    margin-right: 50%;
+    align-items: flex-end;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.cadastrar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 480px) {
+    body{
+        width:100%;
+    }
+    header{
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+        
+    }
+    ul .footer-card{
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+    }
+    .footer-item{
+        width: 100%
+    }
+}
